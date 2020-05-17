@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Matriks Solutions</string>
+    <string name="matriks_solutions">Matriks Solutions</string>
+    <string name="matriks3x3">Matriks 3x3</string>
+    <string name="matriks4x4">Matriks 4x4</string>
+    <string name="matriks2x2">Matriks 2x2</string>
+    <string name="determinan_matriks">Determinan Matriks</string>
+    <string name="invers_matriks">Invers Matriks</string>
+    <string name="dataMatriks3x3" />
+    <string name="background">TODO</string>
+    <string name="btnbackground">btnBackground</string>
+    <string name="paper">Paper</string>
+
+</resources>

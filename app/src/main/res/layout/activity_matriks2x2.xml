@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Matriks2x2"
+    android:padding="70dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/dataMatriks2x2"
+        android:text=""
+        android:textSize="20sp"
+        android:gravity="center"
+        style="@style/layout"
+        android:textColor="@color/colorPrimary"/>
+    <TableLayout
+        style="@style/layout"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="40dp">
+        <TableRow
+            style="@style/layout"
+            tools:ignore="UselessParent">
+            <EditText
+                android:id="@+id/matriks2x2b1k1"
+                style="@style/layoutTable"
+                tools:ignore="LabelFor"
+                android:autofillHints="0" />
+            <EditText
+                android:id="@+id/matriks2x2b1k2"
+                style="@style/layoutTable"
+                android:layout_marginLeft="20dp"
+                android:layout_marginStart="20dp"
+                tools:ignore="LabelFor"
+                android:autofillHints="0" />
+        </TableRow>
+        <TableRow
+            style="@style/layout">
+            <EditText
+                android:id="@+id/matriks2x2b2k1"
+                style="@style/layoutTable"
+                android:autofillHints="0"
+                tools:ignore="LabelFor" />
+            <EditText
+                android:id="@+id/matriks2x2b2k2"
+                style="@style/layoutTable"
+                android:layout_marginLeft="20dp"
+                android:layout_marginStart="20dp"
+                android:autofillHints="0"
+                tools:ignore="LabelFor" />
+        </TableRow>
+    </TableLayout>
+
+    <Button
+        android:id="@+id/determinanMatriks2x2"
+        style="@style/layout"
+        android:layout_marginTop="150dp"
+        android:text="@string/determinan_matriks"
+        android:background="@drawable/elipse"/>
+    <Button
+        android:id="@+id/inversMatriks2x2"
+        style="@style/layout"
+        android:layout_marginTop="20dp"
+        android:text="@string/invers_matriks"
+        android:background="@drawable/elipse"/>
+</LinearLayout>

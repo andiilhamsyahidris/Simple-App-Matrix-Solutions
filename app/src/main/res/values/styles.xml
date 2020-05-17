@@ -1,0 +1,31 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="android:textColorPrimary">@color/colorPrimary</item>
+    </style>
+    <style name="layout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="layoutTable">
+        <item name="android:layout_width">50dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:inputType">number</item>
+    </style>
+    <style name="layoutTableMatriks3x3">
+        <item name="android:layout_width">35dp</item>
+        <item name="android:layout_height">35dp</item>
+        <item name="android:inputType">number</item>
+    </style>
+    <style name="layout.btnDeterminan">
+        <item name="android:layout_marginTop">150dp</item>
+        <item name="android:text">@string/determinan_matriks</item>
+    </style>
+    <style name="layout.btnInvers">
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:text">@string/invers_matriks</item>
+    </style>
+</resources>

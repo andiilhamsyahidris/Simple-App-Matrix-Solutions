@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+    <FrameLayout
+        style="@style/layout"
+        tools:ignore="UselessParent">
+        <ImageView
+            style="@style/layout"
+            android:src="@drawable/matriks"
+            android:scaleType="fitXY"
+            android:contentDescription="@string/background"/>
+        <Button
+            android:id="@+id/btn_matriks2x2"
+            android:layout_marginTop="360dp"
+            style="@style/layout"
+            android:background="@drawable/elipse"
+            android:layout_marginLeft="70dp"
+            android:layout_marginRight="70dp"
+            android:text="@string/matriks2x2" />
+        <Button
+            android:id="@+id/btn_matriks3x3"
+            android:layout_marginTop="420dp"
+            style="@style/layout"
+            android:background="@drawable/elipse"
+            android:layout_marginLeft="70dp"
+            android:layout_marginRight="70dp"
+            android:text="@string/matriks3x3"/>
+        <Button
+            android:id="@+id/btn_matriks4x4"
+            android:layout_marginTop="480dp"
+            style="@style/layout"
+            android:background="@drawable/elipse"
+            android:layout_marginLeft="70dp"
+            android:layout_marginRight="70dp"
+            android:text="@string/matriks4x4"/>
+    </FrameLayout>
+</LinearLayout>
